@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>User Activity Analysis</title>
+        <style>
+            body {
+                font-family: Copperplate, Papyrus, fantasy;
+                background-color:rgb(180, 168, 168);
+                padding: 20px;
+            }
+
+            h1 {
+                color:rgb(31, 26, 26);
+                font-size: 70px;
+            }
+
+            .button-container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin-top: 20px;
+            }
+
+            input[type="submit"] {
+                margin: 8px 0;
+                padding: 12px 24px;
+                font-size: 16px;
+                border: none;
+                border-radius: 6px;
+                background-color:  #5C4E4E;
+                color: white;
+                cursor: pointer;
+                box-shadow: 0 2px 5px #5C4E4E;
+                transition: background-color 0.3s ease;
+            }
+
+            input[type="submit"]:hover {
+                background-color: #988686;
+            }
+
+            table {
+                margin-top: 20px;
+                border-collapse: collapse;
+                width: 100%;
+                background-color: rgb(197, 188, 188);
+            }
+
+            th, td {
+                padding: 10px;
+                border: 1px solid #333;
+                text-align: center;
+                font-family : Garamond, serif ;
+                font-size: 20px;
+            }
+
+            h2 {
+                margin-top: 40px;
+                color:rgb(67, 49, 49);
+                font-size: 25px;
+            }
+
+            h3 {
+                color:rgb(67, 49, 49);
+                font-size: 22px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>User Activity Analysis</h1>
+
+        <h3>Welcome to the User Activity Dashboard. Choose an option below to display data.</h3>        
+        <!--buttons-->
+        <form method="post" class="button-container">
+            <input type="submit" name="home" value="🏠 Home">
+            <input type="submit" name="recent_activity" value="📅 Recent Activity">
+            <input type="submit" name="post_likes" value="👍 Posts">
+            <input type="submit" name="top_followers" value="⭐ Top Followers">
+        </form>
+
+        <!-- User Insert/Delete -->
+        <h2># Add New User</h2>
+        <form method="post" class="button-container">
+            <input type="text" name="uname" placeholder="User Name" required="">
+            <input type="number" name="followers" placeholder="Followers Count" required="">
+            <input type="submit" name="add_user" value="➕ Add User">
+        </form>
+
+        <h2># Delete User</h2>
+        <form method="post" class="button-container">
+            <input type="number" name="delete_id" placeholder="User ID to Delete" required="">
+            <input type="submit" name="delete_user" value="🗑️ Delete User">
+        </form>
+
+    
+
+
+</body></html>
