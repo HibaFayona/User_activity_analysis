@@ -54,8 +54,4 @@ User-Activity-Analysis
         <li>Open http://localhost/User-Activity-Analysis/index.php in your browser.</li>
     </ol>
 
-   <h2>Screenshots</h2>
-    <p>Dashboard</p>
-    <img src="./images/dashboard.png" alt="Dashboard Screenshot" width="600">
-    <p>Add User Form</p>
-    <img src="./images/add_user.png" alt="Add User Screenshot" width="600">
+   
