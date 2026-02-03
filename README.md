@@ -49,7 +49,7 @@ User-Activity-Analysis
             <pre>git clone https://github.com/HibaFayona/User-Activity-Analysis.git</pre>
         </li>
         <li>Place project files in your PHP server directory (e.g., htdocs for XAMPP).</li>
-        <li>Import the database dump (if provided) into MySQL.</li>
+        <li>Import the database into MySQL.</li>
         <li>Start Apache and MySQL servers.</li>
         <li>Open http://localhost/User-Activity-Analysis/index.php in your browser.</li>
     </ol>
