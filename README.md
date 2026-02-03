@@ -46,7 +46,7 @@ User-Activity-Analysis
   <h2>How to Run</h2>
     <ol>
         <li>Clone this repository:
-            <pre>git clone https://github.com/your-username/User-Activity-Analysis.git</pre>
+            <pre>git clone https://github.com/HibaFayona/User-Activity-Analysis.git</pre>
         </li>
         <li>Place project files in your PHP server directory (e.g., htdocs for XAMPP).</li>
         <li>Import the database dump (if provided) into MySQL.</li>
